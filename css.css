@@ -290,6 +290,7 @@ nav {
     ),
     url("./images/testimonials-bg.jpg") center no-repeat fixed;
   position: relative;
+  background-size: cover;
 }
 
 .testimonials::before {
