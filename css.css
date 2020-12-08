@@ -459,6 +459,7 @@ footer {
 @media screen and (min-width: 950px) {
   .hero::before {
     height: 22.7rem;
+    z-index: 1;
     background: url(./images/wave-large.png);
     background-size: cover;
   }
