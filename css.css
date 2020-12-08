@@ -228,7 +228,13 @@ nav {
   grid-gap: 2.5rem;
 }
 
+.activities-grid-item:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 50px 10px rgba(0, 0, 0, 0.7);
+}
+
 .activities-grid-item {
+  transition: all 0.5s;
   height: 40rem;
   padding: 5rem;
   color: #fafafa;
