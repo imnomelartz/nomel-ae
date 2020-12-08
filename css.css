@@ -270,7 +270,8 @@ nav {
 }
 
 .camping {
-  background: url(./images/camping.jpg) center no-repeat;
+  background: url(./images/Story-Logo_1.gif) center no-repeat;
+  background-size: cover;
 }
 
 .activities-grid-item i {
