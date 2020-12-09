@@ -263,16 +263,41 @@ nav {
 
 .star-gazing {
   background: url(./images/Grapics.jpg) center no-repeat;
+  background-size: 500%;
+  transition-property: background-size;
+  transition-delay: 0.4s;
+  transition-duration: 0.5s;
+  transition: all 0.5s;
+}
+
+.star-gazing:hover {
+  background-size: 540%;
 }
 
 .hiking {
   background: url(./images/3D\ modern.jpg) center no-repeat;
-  background-size: 150%;
+  background-size: 240%;
+  transition-property: background-size;
+  transition-delay: 0.4s;
+  transition-duration: 0.5s;
+  transition: all 0.5s;
+}
+
+.hiking:hover {
+  background-size: 260%;
 }
 
 .camping {
   background: url(./images/Story-Logo_1.gif) center no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  transition-property: background-size;
+  transition-delay: 0.4s;
+  transition-duration: 0.5s;
+  transition: all 0.5s;
+}
+
+.camping:hover {
+  background-size: 110%;
 }
 
 .activities-grid-item i {
