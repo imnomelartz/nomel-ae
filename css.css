@@ -266,7 +266,8 @@ nav {
 }
 
 .hiking {
-  background: url(./images/hiking.jpg) center no-repeat;
+  background: url(./images/3D\ modern.jpg) center no-repeat;
+  background-size: 150%;
 }
 
 .camping {
