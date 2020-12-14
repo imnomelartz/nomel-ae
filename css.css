@@ -492,7 +492,6 @@ footer {
 @media screen and (min-width: 950px) {
   .hero::before {
     height: 22.7rem;
-    z-index: 1;
     background: url(./images/wave-large.png);
     background-size: cover;
   }
@@ -507,4 +506,44 @@ footer {
   .hero {
     height: 75vh;
   }
+}
+
+.scoial {
+  z-index: 2;
+  align-items: center;
+  position: fixed;
+  top: 80%;
+  left: 30px;
+  transform: translate(-50%);
+  background-color: rgba(255, 255, 255, 0.548);
+  border-radius: 100px;
+  box-shadow: 5px 5px 45px 5px rgb(0, 0, 0);
+}
+
+.scoial ul {
+  margin: 0;
+  padding: 0;
+}
+
+.scoial ul li {
+  list-style: none;
+  margin: 7px 0;
+}
+
+.scoial ul li a {
+  opacity: 0.5;
+  width: 42px;
+  height: 42px;
+  line-height: 35px;
+  font-size: 19px;
+  color: #0d4928;
+  display: block;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.scoial ul li a:hover {
+  opacity: 1;
+  transform: scale(1.4);
+  color: #00ff72;
 }
