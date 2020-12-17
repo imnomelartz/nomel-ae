@@ -8,3 +8,10 @@ selectElement('.open').addEventListener(`click`, () => {
 selectElement('.close').addEventListener(`click`, () => {
     selectElement('.nav-list').classList.remove(`active`)
 });
+
+
+let loaderwrapper = document.querySelector('.loader-wrapper')
+
+window.addEventListener('load', function () {
+    loaderwrapper.style.display = 'none'
+})
