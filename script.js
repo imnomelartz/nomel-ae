@@ -15,3 +15,5 @@ let loaderwrapper = document.querySelector('.loader-wrapper')
 window.addEventListener('load', function () {
     loaderwrapper.style.display = 'none'
 })
+
+
