@@ -844,5 +844,257 @@ footer {
     grid-row-gap: 0.1rem;
   }
 }
+/* Stats cust */
+
+.containerr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 11vh;
+  width: 20%;
+  z-index: 99;
+}
+.containerr .story {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  top: 90px;
+}
+.containerr .story p {
+  position: relative;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  bottom: 6px;
+}
+.containerr .story .story-svg-img-wrapper {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  cursor: pointer;
+}
+
+.containerr .story .story-svg-img-wrapper svg {
+  width: 72px;
+  height: 72px;
+  pointer-events: none;
+}
+
+.containerr .story .story-svg-img-wrapper svg circle {
+  fill: #000000;
+  stroke-width: 2;
+  stroke: url(#insta-gradient);
+  stroke-linecap: round;
+  stroke-dasharray: 6;
+  pointer-events: none;
+  transform-origin: 50% 50%;
+  animation: dash 8s linear infinite;
+}
+.containerr .story .story-svg-img-wrapper img {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: 0px 0px 2px #999999;
+}
+
+@keyframes dash {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .containerr .story {
+    left: 0px;
+    top: 80px;
+  }
+}
+
+@media screen and (min-width: 470px) {
+  .containerr .story {
+    left: 50px;
+    top: 120px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .containerr .story {
+    left: 30px;
+    top: 100px;
+  }
+}
+
+.containerr .story1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  top: 90px;
+  left: 218px;
+}
+.containerr .story1 p {
+  position: relative;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  bottom: 6px;
+}
+.containerr .story1 .story-svg-img-wrapper1 {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  cursor: pointer;
+}
+
+.containerr .story1 .story-svg-img-wrapper1 svg {
+  width: 72px;
+  height: 72px;
+  pointer-events: none;
+}
+
+.containerr .story1 .story-svg-img-wrapper1 svg circle {
+  fill: #000000;
+  stroke-width: 2;
+  stroke: url(#insta-gradient1);
+  stroke-linecap: round;
+  stroke-dasharray: 6;
+  pointer-events: none;
+  transform-origin: 50% 50%;
+  animation: dash 8s linear infinite;
+}
+.containerr .story1 .story-svg-img-wrapper1 img {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: 0px 0px 2px #999999;
+}
+
+@keyframes dash {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .containerr .story1 {
+    left: 75px;
+    top: 80px;
+  }
+}
+@media screen and (min-width: 470px) {
+  .containerr .story1 {
+    left: 208px;
+    top: 120px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .containerr .story1 {
+    left: 110px;
+    top: 100px;
+  }
+}
+
+.containerr .story2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  top: 90px;
+  left: 297px;
+}
+.containerr .story2 p {
+  position: relative;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  bottom: 6px;
+}
+.containerr .story2 .story-svg-img-wrapper2 {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  cursor: pointer;
+}
+
+.containerr .story2 .story-svg-img-wrapper2 svg {
+  width: 72px;
+  height: 72px;
+  pointer-events: none;
+}
+
+.containerr .story2 .story-svg-img-wrapper2 svg circle {
+  fill: #000000;
+  stroke-width: 2;
+  stroke: url(#insta-gradient2);
+  stroke-linecap: round;
+  stroke-dasharray: 6;
+  pointer-events: none;
+  transform-origin: 50% 50%;
+  animation: dash 8s linear infinite;
+}
+.containerr .story2 .story-svg-img-wrapper2 img {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: 0px 0px 2px #999999;
+}
+
+@keyframes dash {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .containerr .story2 {
+    left: 150px;
+    top: 80px;
+  }
+}
+
+@media screen and (min-width: 470px) {
+  .containerr .story2 {
+    left: 130px;
+    top: 120px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .containerr .story2 {
+    left: 190px;
+    top: 100px;
+  }
+}
 
 /* Back test */
