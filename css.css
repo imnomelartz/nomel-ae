@@ -393,11 +393,27 @@ nav {
 }
 
 footer {
-  padding: 2.5rem;
+  align-items: center;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
   background-color: #181818;
-  text-align: center;
-  color: rgba(199, 199, 199, 0.7);
+  padding: 4.5rem;
+  width: 100%;
+  height: 15%;
+  color: white;
+  position: relative;
   font-size: 1.2rem;
+}
+
+footer span {
+  position: relative;
+  right: 5px;
+  color: #00ff72;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 800;
+  font-style: oblique;
 }
 
 /* Media queries */
